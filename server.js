@@ -6,4 +6,4 @@ app.get('/', (request,response)=>{
     return response.json({message: 'Server is UP!'});
 });
 
-app.listen(80);
+app.listen(8001);
